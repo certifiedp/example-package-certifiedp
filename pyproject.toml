@@ -1,7 +1,7 @@
 # contents of pyproject.toml
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
@@ -30,3 +30,7 @@ test = ["pytest"]
 
 [project.urls]
 "Source Code" = "https://github.com/certifiedp/example-package-certifiedp"
+
+[tool.hatch]
+version.source = "vcs"
+build.hooks.vcs.version-file = "src/example_package_YOUR_USERNAME_HERE/_version.py"
