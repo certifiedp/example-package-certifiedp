@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example-package-certifiedp"
-dynamic = ["version"]
+version = "0.1.0"
 dependencies = [
   "numpy",
 ]
@@ -22,6 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Private :: Do Not Upload",
 ]
 
 [project.optional-dependencies]
