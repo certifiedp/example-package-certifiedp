@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example-package-certifiedp"
-version = "0.1.0"
+dynamic = ["version"]
 dependencies = [
   "numpy",
 ]
