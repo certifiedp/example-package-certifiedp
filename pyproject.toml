@@ -33,4 +33,4 @@ test = ["pytest"]
 
 [tool.hatch]
 version.source = "vcs"
-build.hooks.vcs.version-file = "src/example_package_YOUR_USERNAME_HERE/_version.py"
+build.hooks.vcs.version-file = "src/example_package_certifiedp/_version.py"
