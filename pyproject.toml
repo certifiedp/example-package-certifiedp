@@ -28,6 +28,9 @@ classifiers = [
 [project.optional-dependencies]
 test = ["pytest"]
 
+[project.urls]
+"Source Code" = "https://github.com/certifiedp/example-package-certifiedp"
+
 [tool.hatch]
 version.source = "vcs"
 build.hooks.vcs.version-file = "src/example_package_certifiedp/_version.py"
