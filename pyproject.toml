@@ -31,4 +31,4 @@ test = ["pytest"]
 "Source Code" = "https://github.com/certifiedp/example-package-certifiedp"
 
 [tool.hatch]
-version.path = "src/example_package_certifiedp/_version.py"
+version.path = "src/example_package_certifiedp/__init__.py"
