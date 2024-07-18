@@ -9,9 +9,24 @@ name = "example-package-certifiedp"
 version = "0.1.0"
 dependencies = [
   "numpy",
-  "pandas",
-  "scikit-learn",
+]
+
+authors = [
+  { name="Marc Karimi", email="mkarim117@berkeley.edu" },
+]
+
+description = "A package I've been working on for INTERSECT"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Private :: Do Not Upload",
 ]
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[project.urls]
+"Source Code" = "https://github.com/certifiedp/example-package-certifiedp"
